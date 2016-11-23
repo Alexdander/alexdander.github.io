@@ -1,0 +1,83 @@
+@font-face{
+	font-family: "DINpro-light";
+	src: url(../fonts/FFDINPro/DINPro-Light.otf);
+}
+@font-face{
+	font-family: "DINpro-black";
+	src: url(../fonts/FFDINPro/DINPro-Black.otf);
+}
+header{
+	padding: 0px;
+	margin: 0px;
+	background-color: #000;
+	height: 120px;
+}
+nav{
+	padding: 0px;
+	margin: 0px;
+	background-color: #000;
+	height: 80px;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+footer{
+	background-color: #000;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+}
+h1{
+	padding-top: 15px;
+	margin-top: 0px;
+	text-indent: 50px;
+	color: #fff;
+	font-family: DINpro-black;
+	font-size: 54px;
+}
+b{
+	font-size: 80px;
+	font-family: DINpro-black;
+}
+h2{
+	text-indent: 50px;
+	color: #454545;
+	font-family: DINpro-light;
+	font-size: 45px;
+
+}
+h3{
+	margin-top: 0px;
+	text-indent: 50px;
+	color: #454545;
+	font-family: DINpro-black;
+	font-size: 45px;
+}
+h6{ 
+	margin-bottom: 0px;
+	padding-top: 15px;
+	color: #fff;
+	text-align: center;
+	font-family: DINpro-light;
+	font-size: 15px;
+}
+p{
+	width: 800px;
+	padding-left: 50px;
+	text-align: 50px;
+	color: #544445;
+	font-family: DINpro-light;
+	font-size: 18px;
+}
+img{
+	position: absolute;
+	padding-top: 45px;
+	padding-left: 30px;
+}
+.color{
+	color: #fff;
+}
+.color2{
+	color: #454545
+}
