@@ -26,7 +26,7 @@ footer{
 	background-color: #000;
 	height: 50px;
 	padding: 0px;
-	margin: 0px;
+	margin: -10px;
 }
 h1{
 	padding-top: 15px;
@@ -34,14 +34,14 @@ h1{
 	text-indent: 50px;
 	color: #fff;
 	font-family: DINpro-black;
-	font-size: 54px;
+	font-size: 80px;
 }
 b{
 	font-size: 80px;
 	font-family: DINpro-black;
 }
 h2{
-	text-indent: 50px;
+	text-indent: 0px;
 	color: #454545;
 	font-family: DINpro-light;
 	font-size: 45px;
@@ -49,7 +49,12 @@ h2{
 }
 h3{
 	margin-top: 0px;
-	text-indent: 50px;
+	color: #454545;
+	font-family: DINpro-black;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+h4{
 	color: #454545;
 	font-family: DINpro-black;
 	font-size: 45px;
@@ -63,9 +68,6 @@ h6{
 	font-size: 15px;
 }
 p{
-	width: 800px;
-	padding-left: 50px;
-	text-align: 50px;
 	color: #544445;
 	font-family: DINpro-light;
 	font-size: 18px;
@@ -80,4 +82,32 @@ img{
 }
 .color2{
 	color: #454545
+}
+section#main{
+	background-color: #999999;
+	height: 50vh;
+}
+section#sec{
+	height: 100vh;
+}
+.box{
+	padding: 25px;
+	height: 100vh;
+}
+.box_nav{
+	border-right: 7px solid #fff;
+}
+section#thr{
+	margin: 0px;
+	padding: 0px;
+	background-color: #999999;
+	height: 50vh;
+}
+footer#cite{
+	background-color: #999999;
+	padding: 0px;
+	margin: 0px;
+}
+.mar{
+	margin-top: 50px;
 }
